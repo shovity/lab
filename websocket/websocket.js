@@ -1,6 +1,6 @@
 const ws = require('ws')
 
-// Protocal: HTTP 2
+// Protocol: HTTP 2
 const server = new ws.WebSocketServer({ port: 3232 })
 
 server.on('connection', (socket) => {
